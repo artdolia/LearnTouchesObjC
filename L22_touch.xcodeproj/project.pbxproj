@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60B69EF1187F190D00D88963 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B69EF0187F190D00D88963 /* Foundation.framework */; };
+		60B69EF3187F190D00D88963 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B69EF2187F190D00D88963 /* CoreGraphics.framework */; };
+		60B69EF5187F190D00D88963 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B69EF4187F190D00D88963 /* UIKit.framework */; };
+		60B69EFB187F190D00D88963 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60B69EF9187F190D00D88963 /* InfoPlist.strings */; };
+		60B69EFD187F190D00D88963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B69EFC187F190D00D88963 /* main.m */; };
+		60B69F01187F190D00D88963 /* ADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B69F00187F190D00D88963 /* ADAppDelegate.m */; };
+		60B69F04187F190E00D88963 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B69F02187F190E00D88963 /* Main_iPhone.storyboard */; };
+		60B69F07187F190E00D88963 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B69F05187F190E00D88963 /* Main_iPad.storyboard */; };
+		60B69F0A187F190E00D88963 /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B69F09187F190E00D88963 /* ADViewController.m */; };
+		60B69F0C187F190E00D88963 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B69F0B187F190E00D88963 /* Images.xcassets */; };
+		60B69F13187F190E00D88963 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B69F12187F190E00D88963 /* XCTest.framework */; };
+		60B69F14187F190E00D88963 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B69EF0187F190D00D88963 /* Foundation.framework */; };
+		60B69F15187F190E00D88963 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B69EF4187F190D00D88963 /* UIKit.framework */; };
+		60B69F1D187F190E00D88963 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60B69F1B187F190E00D88963 /* InfoPlist.strings */; };
+		60B69F1F187F190E00D88963 /* L22_touchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B69F1E187F190E00D88963 /* L22_touchTests.m */; };
+		60B69F2D187F1EDB00D88963 /* BlackCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B69F29187F1EDB00D88963 /* BlackCell.png */; };
+		60B69F2E187F1EDB00D88963 /* RedChecker.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B69F2A187F1EDB00D88963 /* RedChecker.png */; };
+		60B69F2F187F1EDB00D88963 /* WhiteCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B69F2B187F1EDB00D88963 /* WhiteCell.png */; };
+		60B69F30187F1EDB00D88963 /* YellowChecker.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B69F2C187F1EDB00D88963 /* YellowChecker.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60B69F16187F190E00D88963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B69EE5187F190B00D88963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B69EEC187F190C00D88963;
+			remoteInfo = L22_touch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60B69EED187F190D00D88963 /* L22_touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = L22_touch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B69EF0187F190D00D88963 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60B69EF2187F190D00D88963 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60B69EF4187F190D00D88963 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60B69EF8187F190D00D88963 /* L22_touch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "L22_touch-Info.plist"; sourceTree = "<group>"; };
+		60B69EFA187F190D00D88963 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60B69EFC187F190D00D88963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60B69EFE187F190D00D88963 /* L22_touch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "L22_touch-Prefix.pch"; sourceTree = "<group>"; };
+		60B69EFF187F190D00D88963 /* ADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADAppDelegate.h; sourceTree = "<group>"; };
+		60B69F00187F190D00D88963 /* ADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAppDelegate.m; sourceTree = "<group>"; };
+		60B69F03187F190E00D88963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		60B69F06187F190E00D88963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		60B69F08187F190E00D88963 /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
+		60B69F09187F190E00D88963 /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
+		60B69F0B187F190E00D88963 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60B69F11187F190E00D88963 /* L22_touchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L22_touchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B69F12187F190E00D88963 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		60B69F1A187F190E00D88963 /* L22_touchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "L22_touchTests-Info.plist"; sourceTree = "<group>"; };
+		60B69F1C187F190E00D88963 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60B69F1E187F190E00D88963 /* L22_touchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = L22_touchTests.m; sourceTree = "<group>"; };
+		60B69F29187F1EDB00D88963 /* BlackCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackCell.png; sourceTree = "<group>"; };
+		60B69F2A187F1EDB00D88963 /* RedChecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedChecker.png; sourceTree = "<group>"; };
+		60B69F2B187F1EDB00D88963 /* WhiteCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteCell.png; sourceTree = "<group>"; };
+		60B69F2C187F1EDB00D88963 /* YellowChecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowChecker.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60B69EEA187F190C00D88963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B69EF3187F190D00D88963 /* CoreGraphics.framework in Frameworks */,
+				60B69EF5187F190D00D88963 /* UIKit.framework in Frameworks */,
+				60B69EF1187F190D00D88963 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B69F0E187F190E00D88963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B69F13187F190E00D88963 /* XCTest.framework in Frameworks */,
+				60B69F15187F190E00D88963 /* UIKit.framework in Frameworks */,
+				60B69F14187F190E00D88963 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60B69EE4187F190B00D88963 = {
+			isa = PBXGroup;
+			children = (
+				60B69EF6187F190D00D88963 /* L22_touch */,
+				60B69F18187F190E00D88963 /* L22_touchTests */,
+				60B69EEF187F190D00D88963 /* Frameworks */,
+				60B69EEE187F190D00D88963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60B69EEE187F190D00D88963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60B69EED187F190D00D88963 /* L22_touch.app */,
+				60B69F11187F190E00D88963 /* L22_touchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60B69EEF187F190D00D88963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60B69EF0187F190D00D88963 /* Foundation.framework */,
+				60B69EF2187F190D00D88963 /* CoreGraphics.framework */,
+				60B69EF4187F190D00D88963 /* UIKit.framework */,
+				60B69F12187F190E00D88963 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60B69EF6187F190D00D88963 /* L22_touch */ = {
+			isa = PBXGroup;
+			children = (
+				60B69EFF187F190D00D88963 /* ADAppDelegate.h */,
+				60B69F00187F190D00D88963 /* ADAppDelegate.m */,
+				60B69F02187F190E00D88963 /* Main_iPhone.storyboard */,
+				60B69F05187F190E00D88963 /* Main_iPad.storyboard */,
+				60B69F08187F190E00D88963 /* ADViewController.h */,
+				60B69F09187F190E00D88963 /* ADViewController.m */,
+				60B69F0B187F190E00D88963 /* Images.xcassets */,
+				60B69F28187F1EDB00D88963 /* Resources */,
+				60B69EF7187F190D00D88963 /* Supporting Files */,
+			);
+			path = L22_touch;
+			sourceTree = "<group>";
+		};
+		60B69EF7187F190D00D88963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60B69EF8187F190D00D88963 /* L22_touch-Info.plist */,
+				60B69EF9187F190D00D88963 /* InfoPlist.strings */,
+				60B69EFC187F190D00D88963 /* main.m */,
+				60B69EFE187F190D00D88963 /* L22_touch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60B69F18187F190E00D88963 /* L22_touchTests */ = {
+			isa = PBXGroup;
+			children = (
+				60B69F1E187F190E00D88963 /* L22_touchTests.m */,
+				60B69F19187F190E00D88963 /* Supporting Files */,
+			);
+			path = L22_touchTests;
+			sourceTree = "<group>";
+		};
+		60B69F19187F190E00D88963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60B69F1A187F190E00D88963 /* L22_touchTests-Info.plist */,
+				60B69F1B187F190E00D88963 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60B69F28187F1EDB00D88963 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60B69F29187F1EDB00D88963 /* BlackCell.png */,
+				60B69F2A187F1EDB00D88963 /* RedChecker.png */,
+				60B69F2B187F1EDB00D88963 /* WhiteCell.png */,
+				60B69F2C187F1EDB00D88963 /* YellowChecker.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60B69EEC187F190C00D88963 /* L22_touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B69F22187F190E00D88963 /* Build configuration list for PBXNativeTarget "L22_touch" */;
+			buildPhases = (
+				60B69EE9187F190C00D88963 /* Sources */,
+				60B69EEA187F190C00D88963 /* Frameworks */,
+				60B69EEB187F190C00D88963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = L22_touch;
+			productName = L22_touch;
+			productReference = 60B69EED187F190D00D88963 /* L22_touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60B69F10187F190E00D88963 /* L22_touchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B69F25187F190E00D88963 /* Build configuration list for PBXNativeTarget "L22_touchTests" */;
+			buildPhases = (
+				60B69F0D187F190E00D88963 /* Sources */,
+				60B69F0E187F190E00D88963 /* Frameworks */,
+				60B69F0F187F190E00D88963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B69F17187F190E00D88963 /* PBXTargetDependency */,
+			);
+			name = L22_touchTests;
+			productName = L22_touchTests;
+			productReference = 60B69F11187F190E00D88963 /* L22_touchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60B69EE5187F190B00D88963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AD;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = AD;
+				TargetAttributes = {
+					60B69F10187F190E00D88963 = {
+						TestTargetID = 60B69EEC187F190C00D88963;
+					};
+				};
+			};
+			buildConfigurationList = 60B69EE8187F190C00D88963 /* Build configuration list for PBXProject "L22_touch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60B69EE4187F190B00D88963;
+			productRefGroup = 60B69EEE187F190D00D88963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60B69EEC187F190C00D88963 /* L22_touch */,
+				60B69F10187F190E00D88963 /* L22_touchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60B69EEB187F190C00D88963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B69F07187F190E00D88963 /* Main_iPad.storyboard in Resources */,
+				60B69F0C187F190E00D88963 /* Images.xcassets in Resources */,
+				60B69F2D187F1EDB00D88963 /* BlackCell.png in Resources */,
+				60B69F2E187F1EDB00D88963 /* RedChecker.png in Resources */,
+				60B69F04187F190E00D88963 /* Main_iPhone.storyboard in Resources */,
+				60B69F30187F1EDB00D88963 /* YellowChecker.png in Resources */,
+				60B69EFB187F190D00D88963 /* InfoPlist.strings in Resources */,
+				60B69F2F187F1EDB00D88963 /* WhiteCell.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B69F0F187F190E00D88963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B69F1D187F190E00D88963 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60B69EE9187F190C00D88963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B69EFD187F190D00D88963 /* main.m in Sources */,
+				60B69F0A187F190E00D88963 /* ADViewController.m in Sources */,
+				60B69F01187F190D00D88963 /* ADAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B69F0D187F190E00D88963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B69F1F187F190E00D88963 /* L22_touchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60B69F17187F190E00D88963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B69EEC187F190C00D88963 /* L22_touch */;
+			targetProxy = 60B69F16187F190E00D88963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60B69EF9187F190D00D88963 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B69EFA187F190D00D88963 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60B69F02187F190E00D88963 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B69F03187F190E00D88963 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		60B69F05187F190E00D88963 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B69F06187F190E00D88963 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		60B69F1B187F190E00D88963 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B69F1C187F190E00D88963 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60B69F20187F190E00D88963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60B69F21187F190E00D88963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60B69F23187F190E00D88963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "L22_touch/L22_touch-Prefix.pch";
+				INFOPLIST_FILE = "L22_touch/L22_touch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60B69F24187F190E00D88963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "L22_touch/L22_touch-Prefix.pch";
+				INFOPLIST_FILE = "L22_touch/L22_touch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		60B69F26187F190E00D88963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/L22_touch.app/L22_touch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "L22_touch/L22_touch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "L22_touchTests/L22_touchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		60B69F27187F190E00D88963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/L22_touch.app/L22_touch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "L22_touch/L22_touch-Prefix.pch";
+				INFOPLIST_FILE = "L22_touchTests/L22_touchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60B69EE8187F190C00D88963 /* Build configuration list for PBXProject "L22_touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B69F20187F190E00D88963 /* Debug */,
+				60B69F21187F190E00D88963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B69F22187F190E00D88963 /* Build configuration list for PBXNativeTarget "L22_touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B69F23187F190E00D88963 /* Debug */,
+				60B69F24187F190E00D88963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B69F25187F190E00D88963 /* Build configuration list for PBXNativeTarget "L22_touchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B69F26187F190E00D88963 /* Debug */,
+				60B69F27187F190E00D88963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60B69EE5187F190B00D88963 /* Project object */;
+}
